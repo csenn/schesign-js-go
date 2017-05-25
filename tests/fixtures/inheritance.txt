@@ -1,0 +1,7 @@
+type class5 struct {
+  e string
+  a bool
+  d string
+  c string
+  b string
+}

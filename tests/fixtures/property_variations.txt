@@ -1,0 +1,41 @@
+import time
+
+type class1 struct {
+  a bool
+  a1 bool
+  a2 bool
+  a3 bool
+  a4 bool
+  a5 bool
+  a6 bool
+  b string
+  b1 string
+  b2 string
+  b3 string
+  b4 string
+  b5 string
+  c float32
+  c1 float32
+  c2 int
+  c3 int8
+  c4 int16
+  c5 int32
+  c6 int64
+  c7 float32
+  c8 float64
+  d string
+  e time.Time
+  e1 time.Time
+  e2 time.Time
+  f f
+  g class2
+}
+
+type f struct {
+  a bool
+  f1 f1
+}
+
+type f1 struct {
+  a bool
+}

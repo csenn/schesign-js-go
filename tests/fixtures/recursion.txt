@@ -1,0 +1,7 @@
+type Class1 struct {
+  property_a property_a
+}
+
+type property_a struct {
+  property_a property_a
+}

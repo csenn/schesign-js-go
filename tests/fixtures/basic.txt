@@ -1,0 +1,3 @@
+type class_a struct {
+  property_a string
+}

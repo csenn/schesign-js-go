@@ -1,0 +1,32 @@
+{
+  "name": "schesign-js-go",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "Generate go code from a schesign graph",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/csenn/schesign-js-go.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "babel src -d dist",
+    "lint": "standard",
+    "lint:fix": "standard --fix",
+    "test": "mocha tests --compilers js:babel-register",
+    "prepublish": "npm run clean & npm run build"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0",
+    "babel-register": "^6.24.1",
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "rimraf": "^2.5.2",
+    "schesign-graph-examples": "0.0.12",
+    "standard": "^10.0.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}

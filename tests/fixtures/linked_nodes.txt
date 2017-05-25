@@ -1,0 +1,10 @@
+type class3 struct {
+  a class1
+  b b
+  c class1
+  d class4
+}
+
+type b struct {
+  e class2
+}
